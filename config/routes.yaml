@@ -3,3 +3,11 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+test:
+    path:       /test
+    controller: App\Controller\testController::index
+
+test2:
+    path:       /test2
+    controller: App\Controller\testController::index2
